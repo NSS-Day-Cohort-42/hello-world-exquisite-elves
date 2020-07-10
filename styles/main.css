@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap');
+
+
+
+.country__header{
+    background-color: #C5C3C6;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+   background-color: #C5C3C6;
+   
+}
+
+.nav-link{
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #46494C;
+
+}

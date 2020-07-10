@@ -3,6 +3,8 @@
 }
 
 .country__title {
+    font-size: 96px;
+    font-family: Open Sans;
 
 }
 
@@ -10,6 +12,20 @@
 
 }
 
-.country__css {
+.country__list {
+    background-color: 46494C;
+    height: 282px;
+    width: 282px;
+    border-radius: 25px;
     
+    font-family: montserrat;
+    color: #DCDCDD;
+
+    list-style-type: none;
+}
+
+.h3 {
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #1985A1;
 }

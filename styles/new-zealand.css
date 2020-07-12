@@ -1,10 +1,24 @@
-.country__card {
+.body {
+    background-color: #DCDCDD;
+}
 
+.country__list--title {
+    font-family: "Open Sans";
+    font-size: 24px;
+    color: #1985A1;
+    text-align: center;
+}
+
+.country__card {
+    display: flex;
+    justify-content: center;
 }
 
 .country__title {
     font-size: 96px;
-    font-family: Open Sans;
+    font-family: "Open Sans";
+    color: #46494C;
+    text-align: center;
 
 }
 
@@ -13,7 +27,7 @@
 }
 
 .country__list {
-    background-color: 46494C;
+    background-color: #46494C;
     height: 282px;
     width: 282px;
     border-radius: 25px;
@@ -22,10 +36,7 @@
     color: #DCDCDD;
 
     list-style-type: none;
-}
 
-.h3 {
-    font-family: Open Sans;
-    font-size: 24px;
-    color: #1985A1;
+    text-align: left;
+
 }

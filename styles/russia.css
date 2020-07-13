@@ -14,7 +14,7 @@
 
 .country__list {
     display: flex;
-    justify-content: space-evenly;
+    align-self: flex-end;
 }
 
 

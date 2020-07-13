@@ -1,0 +1,43 @@
+
+
+.container { 
+    background-color: #DCDCDD;
+}
+
+
+.country__title { 
+    display: flex; 
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.country__card { 
+    display: flex; 
+    justify-content: center;
+}
+
+.list__container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.country__list {     
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4C5C68;
+    border-radius: 25px;
+    color: #DCDCDD;
+}
+
+.country__listTitle { 
+    display: flex; 
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}

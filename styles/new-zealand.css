@@ -16,24 +16,16 @@
     justify-content: center;
 }
 
-.country__title {
-    font-size: 96px;
-    font-family: "Open Sans";
-    color: #46494C;
-    text-align: center;
-
-}
-
 .country__list {
     background-color: #46494C;
     border-radius: 25px;  
     font-family: montserrat;
     color: #DCDCDD;
-    text-align: left;
+    text-align: center;
     padding: .5rem;
 }
 
 .info-lists {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }

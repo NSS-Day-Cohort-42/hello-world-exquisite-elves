@@ -1,3 +1,7 @@
+body {
+    background-color: #DCDCDD;
+}
+
 .country__title {
    text-align: center;
    font-size: 5rem;
@@ -6,15 +10,16 @@
 }
 
 .country__img {
-    margin-left: 18.5%;
+    margin-left: 1%;
     height: 20rem;
     width: 70rem;
     margin-bottom: 70px;
 }
 
-.country__list {
+.country__listRussia {
     display: flex;
-    align-self: flex-end;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 
@@ -24,8 +29,15 @@
     background-color: #4c5c68;
     border-radius: 25%;
     width: 15rem;
-    height: 15rem;
+    height: 9rem;
     text-align: center;
     border-style: none;
-    text-decoration: none;
+}
+
+.list__1 {
+    margin-left: 12%;
+}
+
+.list__3 {
+    margin-right: 12%;
 }

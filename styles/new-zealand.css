@@ -24,23 +24,13 @@
 
 }
 
-.country__img {
-
-}
-
 .country__list {
-    list-style-type: none;
-
     background-color: #46494C;
-    /* height: 282px; */
-    /* width: 282px; */
-    border-radius: 25px;
-    
+    border-radius: 25px;  
     font-family: montserrat;
     color: #DCDCDD;
-
     text-align: left;
-
+    padding: .5rem;
 }
 
 .info-lists {

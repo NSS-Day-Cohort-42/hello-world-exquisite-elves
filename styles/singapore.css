@@ -1,0 +1,41 @@
+
+body{
+    background-color: #DCDCDD;
+}
+
+.country__card{
+    display: flex;
+    justify-content: center;
+}
+
+
+.country__title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: #46494C;
+}
+
+.country__img{
+ margin-bottom: 2rem;
+}
+
+.list__container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.country__list{
+   
+    background-color: #4C5C68;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    text-align: left;
+    border-radius: 25px;
+    margin: auto;
+}
+
+h3, li{
+    color: #DCDCDD;
+}

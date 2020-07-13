@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap');
 @import "./new-zealand.css";
+@import "./singapore.css";
+@import "TheNetherlands.css";
+
 
 .country__header{
     background-color: #C5C3C6;
@@ -20,5 +23,4 @@
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #46494C;
-
 }

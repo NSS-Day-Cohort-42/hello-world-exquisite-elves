@@ -1,5 +1,7 @@
 .body {
     background-color: #DCDCDD;
+    display: flex;
+    flex-direction: row;
 }
 
 .country__list--title {
@@ -27,16 +29,21 @@
 }
 
 .country__list {
+    list-style-type: none;
+
     background-color: #46494C;
-    height: 282px;
-    width: 282px;
+    /* height: 282px; */
+    /* width: 282px; */
     border-radius: 25px;
     
     font-family: montserrat;
     color: #DCDCDD;
 
-    list-style-type: none;
-
     text-align: left;
 
+}
+
+.info-lists {
+    display: flex;
+    justify-content: space-between;
 }

@@ -4,13 +4,10 @@ body{
 }
 
 .country__card{
+    display: flex;
     justify-content: center;
 }
 
-
-.country__info{
-  
-}
 
 .country__title{
     text-align: center;
@@ -18,8 +15,7 @@ body{
 }
 
 .country__img{
-    margin-left: 8.5rem;
-    margin-bottom: 3rem;
+ margin-bottom: 2rem;
 }
 
 .list__container{

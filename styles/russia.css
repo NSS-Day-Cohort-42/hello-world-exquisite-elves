@@ -16,11 +16,18 @@ body {
     margin-bottom: 70px;
 }
 
+<<<<<<< HEAD
 .container {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     font-family: 'Open Sans', sans-serif;
+=======
+.country__listRussia {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+>>>>>>> master
 }
 
 
@@ -29,8 +36,13 @@ body {
 .list__3 {
     background-color: #4c5c68;
     border-radius: 25%;
+<<<<<<< HEAD
     width: 18rem;
     height: 12rem;
+=======
+    width: 15rem;
+    height: 9rem;
+>>>>>>> master
     text-align: center;
     border-style: none;
 }

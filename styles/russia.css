@@ -16,7 +16,7 @@ body {
     margin-bottom: 70px;
 }
 
-.country__listRussia {
+.container__russia {
     display: flex;
     justify-content: space-around;
     flex-direction: row;

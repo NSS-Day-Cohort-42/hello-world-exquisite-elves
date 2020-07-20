@@ -6,14 +6,10 @@
 
 
 
-.country__header{
-    background-color: #C5C3C6;
-}
 
 .nav{
     display: flex;
     justify-content: center;
-   background-color: #C5C3C6;
    
 }
 
@@ -24,5 +20,5 @@
     margin-left: 4rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: #46494C;
+    color: #cacdcf;
 }

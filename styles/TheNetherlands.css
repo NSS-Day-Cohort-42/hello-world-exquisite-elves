@@ -1,15 +1,17 @@
 
-
-.container { 
-    background-color: #DCDCDD;
+body {
+    margin: 0;
 }
 
 
-.country__title { 
+.country__title__light { 
     display: flex; 
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
+    letter-spacing: 15px;
+    color: #DCDCDD;
+    
 }
 
 .country__card { 
@@ -21,6 +23,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
+    top: 20rem;
 }
 
 .country__list {     
@@ -31,9 +35,8 @@
     padding-left: 3rem;
     padding-right: 3rem;
     font-family: 'Open Sans', sans-serif;
-    background-color: #4C5C68;
     border-radius: 25px;
-    color: #DCDCDD;
+    color: #DCDCDD;;
 }
 
 .country__listTitle { 
@@ -41,3 +44,19 @@
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+.bg {
+    /* The image used */
+    background-image: url("../images/netherlands.jpg");
+  
+    /* Full height */
+    height: 100vh;
+    min-height: 500px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  }

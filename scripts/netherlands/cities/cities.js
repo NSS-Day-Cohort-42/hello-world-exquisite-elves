@@ -2,7 +2,7 @@ import { useCities } from "./citiesDataProvider.js";
 import { citiesAsHTML } from "./citiesHTMLConverter.js";
 
 export const citiesList = () => { 
-    const contentElement = document.querySelector(".country__list")
+    const contentElement = document.querySelector(".cities__list")
 
     const cities = useCities()
 
@@ -12,8 +12,7 @@ export const citiesList = () => {
     }
 
     contentElement.innerHTML += `
-    <section class="country__list">
+    <h3 class="country__listTitle">Cities</h3>
         ${citiesHTMLRep}
-    </section>
     `
 }

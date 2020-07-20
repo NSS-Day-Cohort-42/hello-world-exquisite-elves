@@ -12,9 +12,7 @@ export const headOfStateList = () => {
     }
 
     contentElement.innerHTML += `
-    <section class="country__list">
     <h3 class="country__listTitle">Heads of State</h3>
         ${headOfStateHTMLRep}
-    </section>
     `
 }

@@ -2,7 +2,7 @@ import { stateHTML } from "./hos.js";
 import { useStateObject } from "./hosData.js";
 
 export const stateList = () => {
-    const targetContent = document.querySelector(".container__russia")
+    const targetContent = document.querySelector(".list__container")
 
     const objectList = useStateObject()
 

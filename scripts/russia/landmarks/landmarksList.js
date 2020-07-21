@@ -2,7 +2,7 @@ import { landHTML } from "./landmarks.js";
 import { useLandObject } from "./landmarksData.js";
 
 export const landList = () => {
-    const targetContent = document.querySelector(".container__russia")
+    const targetContent = document.querySelector(".list__container")
 
     const objectList = useLandObject()
 

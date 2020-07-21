@@ -11,7 +11,7 @@ body {
     font-size: 40px;
     letter-spacing: 15px;
     color: #DCDCDD;
-    
+    margin-top: 5rem;
 }
 
 .country__card { 
@@ -24,7 +24,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     position: relative;
-    top: 20rem;
+    top: 2rem;
 }
 
 .country__list {     
@@ -60,3 +60,7 @@ body {
     background-size: cover;
     opacity: 0.9;
   }
+
+
+
+ 

@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap');
 @import "./new-zealand.css";
 @import "russia.css";
-@import "./TheNetherlands.css";
 @import "./singapore.css";
+@import "./TheNetherlands.css";
 
 
 
-.country__header{
-    background-color: #C5C3C6;
+body {
+    margin: 0;
 }
 
 .nav{
     display: flex;
     justify-content: center;
-   background-color: #C5C3C6;
+    cursor: pointer;
    
 }
 
@@ -23,6 +23,32 @@
     margin-bottom: 2rem;
     margin-left: 4rem;
     font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    color: #46494C;
+    text-decoration-color: none;
+    color: #cacdcf;
+    /* border-top: solid white .1px;
+    border-bottom: solid white .1px */
+}
+
+.country__list {     
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+    width: 32%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    background: #DCDCDD;
+    border: solid black 2px
+}
+
+.country__title__light { 
+    display: flex; 
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 15px;
+    color: #DCDCDD;
+    margin-top: 20rem;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px
 }

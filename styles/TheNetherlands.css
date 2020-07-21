@@ -1,19 +1,4 @@
 
-
-.container { 
-    /* display: flex;
-    flex-direction: column; */
-    background-color: #DCDCDD;
-}
-
-
-.country__title { 
-    display: flex; 
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-}
-
 .country__card { 
     display: flex; 
     justify-content: center;
@@ -23,19 +8,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
+    top: 2rem;
 }
 
-.country__list {     
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
-    margin-top: 2rem; 
-    margin-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #4C5C68;
-    border-radius: 25px;
-    color: #DCDCDD;
+.country__list li,
+.country__list h3 {
+    color: black;
 }
 
 .country__listTitle { 
@@ -43,3 +22,23 @@
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+.bg {
+    /* The image used // url is pulling from where your image is stored */
+    background-image: url("../images/netherlands.jpg");
+  
+    /* vh = view height. min-height = the minimum amount the image will shrink when the window is made to be smaller. */
+    height: 100vh;
+    min-height: 500px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+  }
+
+
+
+ 

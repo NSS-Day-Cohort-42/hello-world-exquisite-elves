@@ -1,21 +1,4 @@
 
-body {
-    margin: 0;
-}
-
-
-.country__title__light { 
-    display: flex; 
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    letter-spacing: 15px;
-    color: #DCDCDD;
-    margin-top: 16rem;
-    border-top: solid white 2px;
-    border-bottom: solid white 2px
-}
-
 .country__card { 
     display: flex; 
     justify-content: center;
@@ -27,18 +10,6 @@ body {
     justify-content: space-evenly;
     position: relative;
     top: 2rem;
-}
-
-.country__list {     
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
-    margin-top: 2rem; 
-    margin-bottom: 2rem;
-    width: 32%;
-    font-family: 'Open Sans', sans-serif;
-    border-radius: 10px;
-    background: #DCDCDD;
-    border: solid black 2px
 }
 
 .country__list li,

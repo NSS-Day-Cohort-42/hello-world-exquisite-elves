@@ -12,7 +12,7 @@ export const landmarkList = () => {
     }
 
     contentElement.innerHTML += `
-    <h3 class="landmark__listTitle">Landmarks</h3>
+    <h3 class="country__listTitle">Landmarks</h3>
         ${landmarkHTMLRep}
     `
 }

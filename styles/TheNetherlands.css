@@ -11,8 +11,9 @@ body {
     font-size: 40px;
     letter-spacing: 15px;
     color: #DCDCDD;
-    margin-top: 14rem;
-    border: solid white 2px
+    margin-top: 16rem;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px
 }
 
 .country__card { 
@@ -33,9 +34,7 @@ body {
     margin-left: 4.5rem;
     margin-top: 2rem; 
     margin-bottom: 2rem;
-    width: 25%;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    width: 32%;
     font-family: 'Open Sans', sans-serif;
     border-radius: 10px;
     background: #DCDCDD;
@@ -55,10 +54,10 @@ body {
 
 
 .bg {
-    /* The image used */
+    /* The image used // url is pulling from where your image is stored */
     background-image: url("../images/netherlands.jpg");
   
-    /* Full height */
+    /* vh = view height. min-height = the minimum amount the image will shrink when the window is made to be smaller. */
     height: 100vh;
     min-height: 500px;
   

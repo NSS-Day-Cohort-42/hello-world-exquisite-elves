@@ -50,3 +50,8 @@ body{
 h3, li{
     color: #DCDCDD;
 }
+
+
+h3{
+    text-align: center;
+}

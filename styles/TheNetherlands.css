@@ -11,7 +11,8 @@ body {
     font-size: 40px;
     letter-spacing: 15px;
     color: #DCDCDD;
-    margin-top: 5rem;
+    margin-top: 14rem;
+    border: solid white 2px
 }
 
 .country__card { 
@@ -27,17 +28,23 @@ body {
     top: 2rem;
 }
 
-
 .country__list {     
     margin-right: 4.5rem;
     margin-left: 4.5rem;
     margin-top: 2rem; 
     margin-bottom: 2rem;
+    width: 25%;
     padding-left: 3rem;
     padding-right: 3rem;
     font-family: 'Open Sans', sans-serif;
-    border-radius: 25px;
-    color: #DCDCDD;;
+    border-radius: 10px;
+    background: #DCDCDD;
+    border: solid black 2px
+}
+
+.country__list li,
+.country__list h3 {
+    color: black;
 }
 
 .country__listTitle { 

@@ -2,7 +2,7 @@ import { citiesHTML } from "./city.js";
 import { useCitiesObject } from "./cityData.js";
 
 export const citiesList = () => {
-    const targetContent = document.querySelector(".container__russia")
+    const targetContent = document.querySelector(".list__container")
 
     const objectList = useCitiesObject()
 

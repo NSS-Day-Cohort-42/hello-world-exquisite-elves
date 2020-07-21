@@ -1,8 +1,10 @@
-.body {
+
+/* .body {
     background-color: #DCDCDD;
     display: flex;
     flex-direction: row;
-}
+} */
+
 
 .country__list--title {
     font-family: "Open Sans";

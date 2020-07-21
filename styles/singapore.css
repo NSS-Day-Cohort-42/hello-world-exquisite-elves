@@ -16,9 +16,20 @@ body{
     color: #46494C;
 }
 
-.country__img{
- margin-bottom: 2rem;
-}
+.bg-singapore {
+    /* The image used // url is pulling from where your image is stored */
+    background-image: url("../images/singapore.jpg");
+  
+    /* vh = view height. min-height = the minimum amount the image will shrink when the window is made to be smaller. */
+    height: 100vh;
+    min-height: 500px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  }
 
 .list__container{
     display: flex;

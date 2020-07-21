@@ -2,11 +2,13 @@ body {
     background-color: #DCDCDD;
 }
 
-.country__title {
+.country__title__light {
    text-align: center;
-   font-size: 5rem;
+   font-size: 6rem;
    margin-bottom: 40px;
    margin-top: 40px;
+   color: black;
+   
 }
 
 .country__imgRussia {
@@ -16,11 +18,11 @@ body {
     margin-bottom: 70px;
 }
 
-.container__russia {
+/* .container__russia {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-}
+} */
 
 
 .list__1,
@@ -35,10 +37,33 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.list__1 {
+.country__listTitle { 
+    display: flex; 
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .list__1 {
     margin-left: 12%;
 }
 
 .list__3 {
     margin-right: 12%;
-}
+} */
+
+.bg-russia {
+    /* The image used // url is pulling from where your image is stored */
+    background-image: url("../images/moscow.jpg");
+  
+    /* vh = view height. min-height = the minimum amount the image will shrink when the window is made to be smaller. */
+    height: 100vh;
+    min-height: 500px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  }
+
+
